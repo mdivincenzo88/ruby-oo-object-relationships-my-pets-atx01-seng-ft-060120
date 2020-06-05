@@ -45,10 +45,8 @@ def buy_cat(cat_name)
   end
   
   def self.walk_dogs
-    dog.owner
+    dog.mood = "happy"
     
-@mood = "happy"
-
 end
     
 
