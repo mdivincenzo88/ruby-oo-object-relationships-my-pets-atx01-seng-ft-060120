@@ -36,5 +36,9 @@ Dog.all.select do |dogs|
 end
 end
 
+def buy_cat 
+  Cat.all.select do 
+end
+
 
 end
