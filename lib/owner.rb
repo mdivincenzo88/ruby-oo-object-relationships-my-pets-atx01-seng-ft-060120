@@ -59,10 +59,10 @@ def buy_cat(cat_name)
   
   def sell_pets
      self.dogs.map do |dogs|
-      dogs.mood = "nervous"
+      dogs.mood = "nervous" && dogs.owner = nil
     end
      self.cats.map do |cats|
-      cats.mood = "nervous"
+      cats.mood = "nervous" && dogs.owner = nil
     end
 end
 end
