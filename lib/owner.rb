@@ -49,12 +49,12 @@ def buy_cat(cat_name)
     self.dogs.map do |dogs|
       dogs.mood = "happy"
     end
-    
+  end 
+  
      def feed_cats
     self.cats.map do |cats|
       cats.mood = "happy"
     end
-    
-end
+  end
 
 end
