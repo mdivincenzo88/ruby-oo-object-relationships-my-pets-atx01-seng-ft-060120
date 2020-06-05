@@ -41,7 +41,6 @@ def buy_cat(cat_name)
   end
   
     
-end
 
 
 end
