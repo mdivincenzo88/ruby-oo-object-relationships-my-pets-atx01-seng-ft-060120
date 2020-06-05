@@ -40,6 +40,7 @@ def buy_cat(cat_name)
   Cat.all.select do |cats|
     cats == cat_name
   end
+  
     
 end
 
