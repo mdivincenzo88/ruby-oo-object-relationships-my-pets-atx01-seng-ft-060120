@@ -16,6 +16,7 @@ end
 
 def cats
   cats.all 
-
 end
+
+
 end
