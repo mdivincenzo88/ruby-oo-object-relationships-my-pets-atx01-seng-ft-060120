@@ -36,7 +36,7 @@ Dog.all.select do |dogs|
 end
 end
 
-def buy_cat 
+def buy_cat(cat_name)
   Cat.owner = self 
 end
 
