@@ -67,5 +67,9 @@ def buy_cat(cat_name)
       cats.mood = "nervous"  
       cats.owner = nil
     end
-end
+  end
+  
+  def list_pets
+    dogs
+    cats
 end
