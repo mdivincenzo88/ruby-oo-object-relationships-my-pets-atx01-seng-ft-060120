@@ -46,7 +46,7 @@ def buy_cat(cat_name)
   end
   
   def walk_dogs
-    self.dogs 
+    self.dogs.mood = "happy"
     binding.pry
 end
     
