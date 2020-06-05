@@ -72,4 +72,5 @@ def buy_cat(cat_name)
   def list_pets
     dogs
     cats
+  end
 end
