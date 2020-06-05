@@ -63,5 +63,6 @@ def buy_cat(cat_name)
     end
      self.cats.map do |cats|
       cats.mood = "nervous"
-
+    end
+end
 end
