@@ -14,8 +14,5 @@ def self.all
   @@all
 end
 
-def walk_dogs
-@mood = "happy"
 
-end
 end
