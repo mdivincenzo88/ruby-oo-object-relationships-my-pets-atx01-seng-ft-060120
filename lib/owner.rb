@@ -37,7 +37,7 @@ end
 end
 
 def buy_cat(cat_name)
-  Cat.new(cat_name)
+  Cat.new(cat_name,self)
   end
   
     
