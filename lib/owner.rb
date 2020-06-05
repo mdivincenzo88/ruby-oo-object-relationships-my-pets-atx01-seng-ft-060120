@@ -45,7 +45,8 @@ def buy_cat(cat_name)
   Dog.new(dog_name,self)
   end
   
-  def walk_dogs
+  
+    def walk_dogs
     self.dogs.map do |dogs|
       dogs.mood = "happy"
     end
