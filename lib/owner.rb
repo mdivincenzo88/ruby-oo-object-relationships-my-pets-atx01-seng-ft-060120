@@ -37,7 +37,7 @@ end
 end
 
 def buy_cat 
-  Cat.all.select do 
+  Cat.owner = self 
 end
 
 
