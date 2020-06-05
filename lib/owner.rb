@@ -56,5 +56,12 @@ def buy_cat(cat_name)
       cats.mood = "happy"
     end
   end
+  
+  def sell_pets
+     self.dogs.map do |dogs|
+      dogs.mood = "nervous"
+    end
+     self.cats.map do |cats|
+      cats.mood = "nervous"
 
 end
