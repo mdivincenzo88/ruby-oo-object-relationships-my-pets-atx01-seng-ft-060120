@@ -49,7 +49,7 @@ def buy_cat(cat_name)
     self.dogs.map do |dogs|
       dogs.mood = "happy"
       
-    binding.pry
+  
 end
     
 
