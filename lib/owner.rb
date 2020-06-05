@@ -1,3 +1,4 @@
+require "pry" 
 class Owner
   # code goes here
   attr_reader :name, :species
@@ -46,7 +47,7 @@ def buy_cat(cat_name)
   
   def walk_dogs
     Self.dogs = "happy"
-    
+    binding.pry
 end
     
 
