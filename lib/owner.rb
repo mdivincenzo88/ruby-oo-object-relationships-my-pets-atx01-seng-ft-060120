@@ -70,7 +70,7 @@ def buy_cat(cat_name)
   end
   
   def list_pets
-    "I have #{self.dogs.count}, and #{self.cats.count} cat(s)."
+    "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
     dogs
     cats
   end
